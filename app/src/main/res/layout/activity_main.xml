@@ -44,7 +44,7 @@
         />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonSelectDate"
         android:layout_marginTop="16sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,14 +54,13 @@
         android:text="SELECT DATE" />
 
     <TextView
+        android:id="@+id/txtSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16sp"
-        android:text="01.01.2000 "
         android:textColor="@color/textColor"
         android:textSize="18sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -74,14 +73,13 @@
         />
 
     <TextView
+        android:id="@+id/txtMinutesPassed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16sp"
-        android:text="2000000 "
         android:textColor="@color/textColor"
         android:textSize="36sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
